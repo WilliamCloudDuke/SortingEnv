@@ -23,7 +23,7 @@ public class SortTester {
 	}
 	
 	public SortTester() {
-		System.out.println("Sort Tester  ");
+		System.out.println("Sort Tester");
 		sorters = new Stack<Sorter>();
 		try{  
 			BufferedReader reader = new BufferedReader(new FileReader(FILENAME));
